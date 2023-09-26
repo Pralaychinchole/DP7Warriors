@@ -9,7 +9,7 @@ public class Month {
 		System.out.println("Enter days in a month");
 		String month=sc.next();
 		
-		if(
+		
 	
 		
 		

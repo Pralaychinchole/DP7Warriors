@@ -10,7 +10,7 @@ public class Test1 {
 		       char c1 = 'd';
 		       char c2 = 'e';
 		       char c3 = (char) (c1+c2);
-		       int c3=(char)(100+101);
+		    //   int c3=(char)(100+101);
 		       System.out.println(c3);  
 		       
 		       

@@ -11,17 +11,10 @@ public class LeapYearInTernary {
 	
 		int year=sc.nextInt();
 		
-		int Year=((Year%4==0) && (Year%100!=0) || (Year%400==0))?
+		String Year=((year%4==0) && (year%100!=0) || (year%400==0))? "Yes" : "No";
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
+       
 		
 		
 		
