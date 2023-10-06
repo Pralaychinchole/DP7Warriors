@@ -1,0 +1,42 @@
+package com.Varargs;
+
+public class VarargsOverridinging {
+
+	public static void main(String[] args) {
+	
+
+		// we cannot override a method with varargs as argument
+		class Parent
+		{
+			static void display(int ...ar)
+			{
+				for(int i:ar)
+				{
+					System.out.println(i);
+				}
+			}
+				
+		}
+
+		class Child extends Parent
+		{
+//			@Override
+//			static void display(int ...ar)
+//			{
+//				int sum=0;
+//				for(int i:ar)
+//				{
+//					sum+=i;
+//				}
+//			}
+
+		}
+
+
+
+		}
+
+
+	}
+
+}
