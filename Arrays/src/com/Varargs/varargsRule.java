@@ -23,13 +23,15 @@ public class varargsRule {
 				System.out.println(s1);
 			}
 		
+		
 		}
-
-
+	
 		public static void main(String[] args) {
 			
+			
+			
 		}
-
+}
 	
 	
 	
