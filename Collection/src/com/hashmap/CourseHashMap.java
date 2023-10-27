@@ -20,7 +20,7 @@ public class CourseHashMap {
          
          for(Map.Entry<Student,Course>e:hm.entrySet());
          {
-        	 System.out.println("stundent deta"+e.getKey());
+        	 System.out.println("stundent detail"+e.
         	 
         	 
          }
