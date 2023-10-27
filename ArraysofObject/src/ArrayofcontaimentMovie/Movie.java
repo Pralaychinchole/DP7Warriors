@@ -1,4 +1,4 @@
-package ArrayofcontaimentMovie;
+wpackage ArrayofcontaimentMovie;
 
 public class Movie {
 	

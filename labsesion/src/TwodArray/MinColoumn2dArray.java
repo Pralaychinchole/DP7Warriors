@@ -22,7 +22,7 @@ static void checkCmin(int ar[][]) {
 
 	public static void main(String[] args) {
 
-		int ar[][] = { { 22, 31, 9 }, { 12, 2s5, 16 } };
+		int ar[][] = { { 22, 31, 9 }, { 12, 25, 16 } };
 
 		checkCmin(ar);
 }

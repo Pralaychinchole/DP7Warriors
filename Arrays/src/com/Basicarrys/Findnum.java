@@ -10,7 +10,7 @@ public class Findnum {
 			if (ar[i]==num) 
 			{
 				isPresent =true;
-				System.out.println(num+"is resent in array at position"+(i+1));
+				System.out.println(num+"is Present in array at position"+(i+1));
 				
 			}
 		}
