@@ -56,9 +56,9 @@ public class IteratingHashMap {
         
         System.out.println("=================");
         //5th way
-      Set<Entry<String, Double>> entries=hm.entrySet();
+      Set<Map.Entry<String, Double>> entries=hm.entrySet();
 		
-		for(Entry<String,Double> e:entries)
+		for(Map.Entry<String,Double> e:entries)
 		{
 			System.out.println(e.getKey()+"=="+e.getValue());
 		}

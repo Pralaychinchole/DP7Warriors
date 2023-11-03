@@ -18,9 +18,8 @@ public class CourseHashMap {
          hm.put(new Student(104,"Hrushi",89),c2);
          hm.put(new Student(105,"Suraj",89),c2);
          
-         for(Map.Entry<Student,Course>e:hm.entrySet());
+         for() 
          {
-        	 System.out.println("stundent detail"+e.
         	 
         	 
          }

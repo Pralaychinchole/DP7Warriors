@@ -1,19 +1,21 @@
-package ArrayofcontaimentMovie;
+package com.treeMap;
 
-public class Movie {
-	
+public  class Student {
+
 	private int id;
 	private String name;
-	private float rating;
-	public Movie() {
+	private int marks;
+	
+	public Student() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Movie(int id, String name, float rating) {
+	public Student(int id, String name, int marks) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.rating = rating;
+		this.marks = marks;
+		
 	}
 	/**
 	 * @return the id
@@ -40,22 +42,22 @@ public class Movie {
 		this.name = name;
 	}
 	/**
-	 * @return the rating
+	 * @return the marks
 	 */
-	public float getRating() {
-		return rating;
+	public int getMarks() {
+		return marks;
 	}
 	/**
-	 * @param rating the rating to set
+	 * @param marks the marks to set
 	 */
-	public void setRating(float rating) {
-		this.rating = rating;
-	}
-	@Override
-	public String toString() {
-		return "Movie [id=" + id + ", name=" + name + ", rating=" + rating + "]";
+	public void setMarks(int marks) {
+		this.marks = marks;
 	}
 	
+	@Override
+	public String toString() {
+		return "Studnet [id=" + id + ", name=" + name + ", marks=" + marks ;
+	}
 	
 	
 

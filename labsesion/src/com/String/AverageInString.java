@@ -24,7 +24,7 @@ public class AverageInString {
 
 	public static void main(String[] args) {
 
-		String st = "pralay12345k";
+		String st = "pralay12569";
 
 		avrg(st);
 	}
